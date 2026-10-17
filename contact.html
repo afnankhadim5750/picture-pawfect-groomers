@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact &amp; Book | Picture Pawfect Groomers, Worcester Park</title>
+<meta name="description" content="Book a one-to-one dog grooming appointment at Picture Pawfect Groomers, 97 Mayfair Avenue, Worcester Park KT4 7SJ. Call 07876 227317 or send an enquiry. Open Mon–Wed & Fri 10:30am–6pm.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Contact &amp; Book | Picture Pawfect Groomers, Worcester Park">
+<meta property="og:description" content="97 Mayfair Avenue, Worcester Park KT4 7SJ · 07876 227317 · Open Mon–Wed & Fri 10:30am–6pm.">
+<meta property="og:image" content="images/salon-interior.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap topbar-inner">
+    <span><i class="bi bi-clock"></i> Mon&ndash;Wed &amp; Fri &middot; 10:30am&ndash;6pm</span>
+    <a href="tel:+447876227317"><i class="bi bi-telephone"></i> 07876 227317</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html" aria-label="Picture Pawfect Groomers — home">
+      <span class="brand-mark"><i class="bi bi-scissors"></i></span>
+      <span class="brand-text">Picture Pawfect <em>Groomers</em></span>
+    </a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html" class="active" aria-current="page">Contact</a>
+    </nav>
+    <a class="btn btn-small hide-mobile" href="contact.html#enquiry">Book a groom</a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false"><i class="bi bi-list"></i></button>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="wrap">
+      <p class="kicker"><i class="bi bi-envelope"></i> Say hello</p>
+      <h1>Book your dog&rsquo;s <em>pamper day.</em></h1>
+      <p>Call, email or send the enquiry form &mdash; we&rsquo;ll confirm your appointment and answer any questions about your pup&rsquo;s first visit.</p>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:1rem" id="enquiry">
+    <div class="wrap contact-grid">
+      <div class="info-stack">
+        <div class="info-card">
+          <h3><i class="bi bi-telephone"></i> Call to book</h3>
+          <a class="tel-big" href="tel:+447876227317">07876 227317</a>
+          <p style="margin-top:.5rem">The quickest way to book &mdash; especially for same-week appointments.</p>
+        </div>
+        <div class="info-card">
+          <h3><i class="bi bi-geo-alt"></i> Visit the salon</h3>
+          <address>97 Mayfair Avenue<br>Worcester Park<br>KT4 7SJ, United Kingdom</address>
+        </div>
+        <div class="info-card">
+          <h3><i class="bi bi-clock"></i> Opening hours</h3>
+          <table class="hours-table">
+            <tr><td>Monday</td><td>10:30am &ndash; 6:00pm</td></tr>
+            <tr><td>Tuesday</td><td>10:30am &ndash; 6:00pm</td></tr>
+            <tr><td>Wednesday</td><td>10:30am &ndash; 6:00pm</td></tr>
+            <tr class="closed"><td>Thursday</td><td>Closed</td></tr>
+            <tr><td>Friday</td><td>10:30am &ndash; 6:00pm</td></tr>
+            <tr class="closed"><td>Saturday</td><td>Closed</td></tr>
+            <tr class="closed"><td>Sunday</td><td>Closed</td></tr>
+          </table>
+        </div>
+        <div class="info-card">
+          <h3><i class="bi bi-envelope"></i> Email</h3>
+          <p><a href="mailto:picturepawfect@hotmail.co.uk" style="color:var(--sage-deep);font-weight:600">picturepawfect@hotmail.co.uk</a></p>
+        </div>
+      </div>
+
+      <div class="form-card">
+        <h2>Send an enquiry</h2>
+        <p>Tell us a little about your dog and the treatment you&rsquo;d like &mdash; this opens your email app addressed to us.</p>
+        <form id="enquiry-form" novalidate>
+          <div class="field-row">
+            <div class="field">
+              <label for="f-name">Your name</label>
+              <input id="f-name" name="name" type="text" autocomplete="name" required placeholder="Jane Appleseed">
+            </div>
+            <div class="field">
+              <label for="f-phone">Phone</label>
+              <input id="f-phone" name="phone" type="tel" autocomplete="tel" placeholder="07123 456789">
+            </div>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="f-dog">Dog&rsquo;s name &amp; breed</label>
+              <input id="f-dog" name="dog" type="text" placeholder="Biscuit &middot; Cocker Spaniel">
+            </div>
+            <div class="field">
+              <label for="f-service">Service</label>
+              <select id="f-service" name="service">
+                <option>Full Groom</option>
+                <option>Bath &amp; Tidy</option>
+                <option>Puppy Introduction</option>
+                <option>Hand Stripping</option>
+                <option>De-shed &amp; Spa</option>
+                <option>Nail &amp; Paw Care</option>
+                <option>Not sure &mdash; please advise</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="f-msg">Anything we should know?</label>
+            <textarea id="f-msg" name="message" placeholder="Temperament, coat condition, preferred dates&hellip;"></textarea>
+          </div>
+          <button class="btn" type="submit"><i class="bi bi-send"></i> Send enquiry</button>
+          <p style="font-size:.82rem;color:var(--ink-soft);margin-top:1rem"><i class="bi bi-info-circle"></i> Prefer to write directly? Email <a href="mailto:picturepawfect@hotmail.co.uk" style="color:var(--sage-deep);font-weight:600">picturepawfect@hotmail.co.uk</a></p>
+        </form>
+      </div>
+    </div>
+
+    <div class="wrap">
+      <div class="map-wrap">
+        <iframe title="Map of Worcester Park area" src="https://www.openstreetmap.org/export/embed.html?bbox=-0.2620%2C51.3680%2C-0.2180%2C51.3880&amp;layer=mapnik&amp;marker=51.3780%2C-0.2400" loading="lazy"></iframe>
+        <p class="map-caption"><i class="bi bi-geo-alt"></i> 97 Mayfair Avenue, Worcester Park KT4 7SJ &mdash; map shows the surrounding area.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" style="background:#F8F4E8;color:var(--sage-deep)"><i class="bi bi-scissors"></i></span>
+        <span class="brand-text">Picture Pawfect <em>Groomers</em></span>
+      </a>
+      <p style="margin-top:1rem">A calm, one-to-one dog grooming salon in Worcester Park. Fully qualified &amp; insured &mdash; and never any cages.</p>
+    </div>
+    <div>
+      <h4>Visit</h4>
+      <address>97 Mayfair Avenue<br>Worcester Park<br>KT4 7SJ, UK</address>
+    </div>
+    <div>
+      <h4>Hours</h4>
+      <p>Mon&ndash;Wed &amp; Fri<br>10:30am &ndash; 6:00pm<br>Thu, Sat &amp; Sun &mdash; closed</p>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <p><a href="tel:+447876227317">07876 227317</a><br><a href="mailto:picturepawfect@hotmail.co.uk">picturepawfect@hotmail.co.uk</a></p>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span class="concept-badge"><i class="bi bi-easel"></i> Website concept &mdash; design preview</span>
+    <span>&copy; 2026 Picture Pawfect Groomers</span>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var t=document.querySelector('.nav-toggle'),n=document.querySelector('.main-nav');
+  if(t&&n){t.addEventListener('click',function(){var o=n.classList.toggle('open');t.setAttribute('aria-expanded',o);});}
+
+  var f=document.getElementById('enquiry-form');
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    var v=function(id){return (document.getElementById(id).value||'').trim();};
+    var lines=[
+      'Name: '+v('f-name'),
+      'Phone: '+v('f-phone'),
+      "Dog's name & breed: "+v('f-dog'),
+      'Service: '+v('f-service'),
+      '',
+      v('f-msg')
+    ];
+    window.location.href='mailto:picturepawfect@hotmail.co.uk'
+      +'?subject='+encodeURIComponent('Grooming enquiry — '+v('f-name'))
+      +'&body='+encodeURIComponent(lines.join('\n'));
+  });
+})();
+</script>
+</body>
+</html>
