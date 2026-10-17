@@ -160,7 +160,7 @@ h1,h2,h3{font-family:var(--font-d);font-weight:600;line-height:1.1;letter-spacin
 /* Studio story */
 .story-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:3.6rem;align-items:center}
 .frame-fun{position:relative}
-.frame-fun img{border-radius:40px;box-shadow:0 24px 50px rgba(78,93,63,.22);aspect-ratio:4/3;object-fit:cover;width:100%;border:8px solid #fff}
+.frame-fun img{border-radius:40px;box-shadow:0 24px 50px rgba(78,93,63,.22);aspect-ratio:4/3;object-fit:cover;width:100%;height:auto;border:8px solid #fff}
 .frame-fun::after{
   content:"";position:absolute;inset:-14px;border:3px dashed var(--sage);
   border-radius:52px;transform:rotate(2deg);z-index:-1;
